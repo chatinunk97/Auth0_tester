@@ -1,6 +1,7 @@
 import React from "react";
 
 import logo from "../assets/logo.svg";
+import TokenChecker, { ExternalApiComponent } from "../token/TokenChecker";
 
 const Hero = () => (
   <div className="text-center hero my-5">
@@ -11,6 +12,7 @@ const Hero = () => (
       This is a sample application that demonstrates an authentication flow for
       an SPA, using <a href="https://reactjs.org">React.js</a>
     </p>
+    <ExternalApiComponent/>
   </div>
 );
 
